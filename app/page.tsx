@@ -13,16 +13,14 @@ export default function Home() {
       {/* Accordion Section */}
       <Accordion type="single" collapsible>
         <AccordionItem value="item-1">
-          <AccordionTrigger>Iš kur aš?</AccordionTrigger>
-          <AccordionContent>Blablabla</AccordionContent>
+          <AccordionTrigger>Kaip aš čia atsidūriau?</AccordionTrigger>
+          <AccordionContent>na visų pirma tai...</AccordionContent>
         </AccordionItem>
         <AccordionItem value="item-2">
-          <AccordionTrigger>Ką mėgstu veikti?</AccordionTrigger>
-          <AccordionContent>Blablabla</AccordionContent>
+          <AccordionTrigger>Kodėl kūrybinės industrijos?</AccordionTrigger>
+          <AccordionContent>papasakok kaip yra ištikrųjų :P</AccordionContent>
         </AccordionItem>
       </Accordion>
-
-      
       <div className="mt-8">
         <HoverCardDemo />
       </div>
