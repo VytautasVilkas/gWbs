@@ -21,7 +21,7 @@ export function BreadcrumbWithDropdown() {
         {/* Home / Pradzia */}
         <BreadcrumbItem>
           <Link href="/" className="hover:underline text-xl text-black transition-all duration-200 hover:scale-105 hover:text-white">
-            Pradzia
+            Pradžia
           </Link>
         </BreadcrumbItem>
         
@@ -39,17 +39,17 @@ export function BreadcrumbWithDropdown() {
             <DropdownMenuContent align="start" className="mt-2 bg-white shadow-lg rounded-md py-1">
               <DropdownMenuItem asChild>
                 <Link href="/gyvuneliai" className="hover:bg-gray-100 px-4 py-2 text-black transition-all duration-200 hover:scale-105 hover:text-white">
-                  Gyvuneliai
+                  Mano Augintiniai
                 </Link>
               </DropdownMenuItem>
               <DropdownMenuItem asChild>
                 <Link href="/seima" className="hover:bg-gray-100 px-4 py-2 text-black transition-all duration-200 hover:scale-105 hover:text-white">
-                  Seima
+                  Šeima
                 </Link>
               </DropdownMenuItem>
               <DropdownMenuItem asChild>
                 <Link href="/kazkas" className="hover:bg-gray-100 px-4 py-2 text-black transition-all duration-200 hover:scale-105 hover:text-white">
-                  Dar kazkas
+                  Dar kažkas
                 </Link>
               </DropdownMenuItem>
             </DropdownMenuContent>

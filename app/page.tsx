@@ -3,30 +3,31 @@ import {
   AccordionContent,
   AccordionItem,
   AccordionTrigger,
-} from "@/components/ui/accordion"
+} from "@/components/ui/accordion";
 
-
+import { HoverCardDemo } from "@/components/ui/MyHover"; // Import HoverCardDemo
 
 export default function Home() {
   return (
-    <div>
+    <div className="w-1/2 mx-auto p-4">
+      {/* Accordion Section */}
       <Accordion type="single" collapsible>
-  <AccordionItem value="item-1">
-    <AccordionTrigger>Is it accessible?</AccordionTrigger>
-    <AccordionContent>
-      Yes. It adheres to the WAI-ARIA design pattern.
-    </AccordionContent>
-  </AccordionItem>
-  <AccordionItem value="item-2">
-    <AccordionTrigger>Is it accessible?</AccordionTrigger>
-    <AccordionContent>
-      Yes. It adheres to the WAI-ARIA design pattern.
-    </AccordionContent>
-  </AccordionItem>
+        <AccordionItem value="item-1">
+          <AccordionTrigger>Iš kur aš?</AccordionTrigger>
+          <AccordionContent>Blablabla</AccordionContent>
+        </AccordionItem>
+        <AccordionItem value="item-2">
+          <AccordionTrigger>Ką mėgstu veikti?</AccordionTrigger>
+          <AccordionContent>Blablabla</AccordionContent>
+        </AccordionItem>
+      </Accordion>
 
-
-</Accordion>
+      
+      <div className="mt-8">
+        <HoverCardDemo />
+      </div>
     </div>
   );
 }
+
 
