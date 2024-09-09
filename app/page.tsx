@@ -5,7 +5,7 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion";
 
-import { HoverCardDemo } from "@/components/ui/MyHover"; // Import HoverCardDemo
+
 
 export default function Home() {
   return (
@@ -21,9 +21,7 @@ export default function Home() {
           <AccordionContent>papasakok kaip yra ištikrųjų :P</AccordionContent>
         </AccordionItem>
       </Accordion>
-      <div className="mt-8">
-        <HoverCardDemo />
-      </div>
+      
     </div>
   );
 }

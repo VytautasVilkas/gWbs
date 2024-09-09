@@ -13,7 +13,7 @@ import {
 
 export function HoverCardDemo() {
   return (
-    <div className="absolute top-4 right-4"> {/* Position in the top-right corner */}
+    <div className="no-select "> {/* Position in the bottom-left corner */}
       <HoverCard>
         <HoverCardTrigger asChild>
           <Button variant="link">@Gabrielė</Button>

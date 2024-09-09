@@ -1,6 +1,6 @@
 import './globals.css'; 
 import { BreadcrumbWithDropdown } from "@/components/ui/BreadcrumbWithDropdown"; 
-
+import { HoverCardDemo } from "@/components/ui/MyHover"; // Import HoverCardDemo
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
@@ -16,8 +16,10 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           {children}
         </main>
 
-        
-        <footer className="p-10 text-center text-sm text-white">
+        <div className="text-center text-sm  mt-8 p-1">
+        <HoverCardDemo />
+      </div>
+        <footer className=" no-select p-1 text-center text-sm text-white">
           © 2024 Gabrielė Tvaskaitė
         </footer>
         
